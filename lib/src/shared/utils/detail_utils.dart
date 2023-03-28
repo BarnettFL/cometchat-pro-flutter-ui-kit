@@ -251,28 +251,28 @@ class DetailUtils {
     GroupMemberScope.participant: {
       GroupOptionConstants.addMembers: false, //Details
       GroupOptionConstants.delete: false, //Details
-      GroupOptionConstants.leave: true, //Details
+      GroupOptionConstants.leave: false, //Details
       GroupOptionConstants.bannedMembers: false, //Details
       GroupOptionConstants.viewMembers: true //Details
     },
     GroupMemberScope.moderator: {
       GroupOptionConstants.addMembers: false,
       GroupOptionConstants.delete: false,
-      GroupOptionConstants.leave: true,
+      GroupOptionConstants.leave: false,
       GroupOptionConstants.bannedMembers: true,
       GroupOptionConstants.viewMembers: true
     },
     GroupMemberScope.admin: {
-      GroupOptionConstants.addMembers: true,
+      GroupOptionConstants.addMembers: false,
       GroupOptionConstants.delete: false,
-      GroupOptionConstants.leave: true,
+      GroupOptionConstants.leave: false,
       GroupOptionConstants.bannedMembers: true,
       GroupOptionConstants.viewMembers: true
     },
     GroupMemberScope.owner: {
-      GroupOptionConstants.addMembers: true,
-      GroupOptionConstants.delete: true,
-      GroupOptionConstants.leave: true,
+      GroupOptionConstants.addMembers: false,
+      GroupOptionConstants.delete: false,
+      GroupOptionConstants.leave: false,
       GroupOptionConstants.bannedMembers: true,
       GroupOptionConstants.viewMembers: true
     },
