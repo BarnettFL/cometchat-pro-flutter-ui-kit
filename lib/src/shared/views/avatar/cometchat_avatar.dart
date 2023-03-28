@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_ui_kit/flutter_chat_ui_kit.dart';
 
-String Function(String image)? customAvatar;
+String Function(String image)? cometChatAvatarCustomAvatar;
 
 /// Creates a widget that that gives avatar UI.
 class CometChatAvatar extends StatelessWidget {
@@ -30,8 +30,8 @@ class CometChatAvatar extends StatelessWidget {
 
     //Check if Text should be visible or image
     if (image != null && image!.isNotEmpty) {
-      if (customAvatar != null) {
-        _url = customAvatar!(image!);
+      if (cometChatAvatarCustomAvatar != null) {
+        _url = cometChatAvatarCustomAvatar!(image!);
       }else{
         _url = image!;
       }
