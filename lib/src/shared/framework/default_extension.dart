@@ -8,12 +8,12 @@ class DefaultExtensions {
       StickersExtension(),
       // CollaborativeDocumentExtension(),
       // CollaborativeWhiteBoardExtension(),
-      ImageModerationExtension(),
+      // ImageModerationExtension(),
       LinkPreviewExtension(),
-      MessageTranslationExtension(),
+      // MessageTranslationExtension(),
       // PollsExtension(),
       ReactionExtension(),
-      SmartReplyExtension(),
+      // SmartReplyExtension(),
       ThumbnailGenerationExtension()
     ];
   }
