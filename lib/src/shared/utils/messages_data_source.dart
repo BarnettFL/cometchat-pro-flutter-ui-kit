@@ -655,8 +655,8 @@ class MessagesDataSource implements DataSource {
       CometChatTheme theme, BuildContext context, Map<String, dynamic>? id) {
     List<CometChatMessageComposerAction> actions = [
       takePhotoOption(theme, context),
-      photoAndVideoLibraryOption(theme, context),
       imageLibraryOption(theme, context),
+      // photoAndVideoLibraryOption(theme, context),
       // audioAttachmentOption(theme, context),
       fileAttachmentOption(theme, context)
     ];
