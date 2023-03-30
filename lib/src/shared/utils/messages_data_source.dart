@@ -594,7 +594,7 @@ class MessagesDataSource implements DataSource {
       CometChatTheme theme, BuildContext context) {
     return CometChatMessageComposerAction(
       id: MessageTypeConstants.photoAndVideo,
-      title: Translations.of(context).photo_and_video_library,
+      title: Translations.of(context).image_library,
       iconUrl: AssetConstants.photoLibrary,
       iconUrlPackageName: UIConstants.packageName,
       titleStyle: TextStyle(
@@ -641,7 +641,7 @@ class MessagesDataSource implements DataSource {
     List<CometChatMessageComposerAction> actions = [
       takePhotoOption(theme, context),
       photoAndVideoLibraryOption(theme, context),
-      audioAttachmentOption(theme, context),
+      // audioAttachmentOption(theme, context),
       fileAttachmentOption(theme, context)
     ];
 

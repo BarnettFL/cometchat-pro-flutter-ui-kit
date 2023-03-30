@@ -6,12 +6,12 @@ class DefaultExtensions {
     return [
       TextModerationExtension(),
       StickersExtension(),
-      CollaborativeDocumentExtension(),
-      CollaborativeWhiteBoardExtension(),
+      // CollaborativeDocumentExtension(),
+      // CollaborativeWhiteBoardExtension(),
       ImageModerationExtension(),
       LinkPreviewExtension(),
       MessageTranslationExtension(),
-      PollsExtension(),
+      // PollsExtension(),
       ReactionExtension(),
       SmartReplyExtension(),
       ThumbnailGenerationExtension()
